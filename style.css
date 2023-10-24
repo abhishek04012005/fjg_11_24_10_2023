@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Pacifico&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    /* min-height: 100vh; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+}
+
+
+h1 {
+   margin-bottom: 2rem;
+    font-family: 'autour one';
+    text-align: center;
+}
+
+h2 {
+    /* position: absolute; */
+    margin-bottom: 2rem;
+}
+
+.styling {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.multiplication {
+    width: 30vh;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 3px grey;
+    padding: 4rem;
+}
+
+input {
+    margin: 1rem 0rem;
+    width: 25vh;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+}
+
+input:focus {
+    color: black;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+
+input:focus::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+    font-size: 15px;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 1rem;
+    border-radius: 5px 20px 5px 20px;
+    color: white;
+    background-color: rgb(12, 117, 117);
+    transition: 0.2s all ease-out;
+}
+
+button:hover {
+    color: rgb(12, 117, 117);
+    background-color: white;
+    border: 1px solid rgb(12, 117, 117);
+}
+
+.table, .table1 {
+    max-height: 70vh;   
+    margin: 2rem 0;
+    display: none;
+    width: 30vh;
+    box-shadow: 0px 0px 10px 3px grey;
+    padding: 1rem;
+    overflow: scroll;
+}
+
+
+
+.table, .table1::-webkit-scrollbar {
+    display: none;
+    }
+
+.table p {
+  
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'pacifico';
+}
+
+.styleMy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myBtn {
+    
+    margin-top: 1rem;
+}
+
+
